@@ -162,5 +162,5 @@ with col3:
     new_data = data_preprocessing(data=data)
     with container.expander("View the Preprocessed Data"):
        container.dataframe(data=new_data, width=800, height=10)
-    container.subheader("Credit Scoring: ")
+    container.subheader("Prediction : ")
     container.title(":blue[{}]".format(prediction(new_data)))
